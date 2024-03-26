@@ -1,6 +1,19 @@
+.container-fluid{
+    background-color: black;
+    color: white;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+} 
+
+.text-start a{
+
+    color: aliceblue;
+}
 .topbar-right {
     position: relative;
     background: var(--primary);
+    display: inline-flex;
+    align-items: center;
 }
 
 .topbar-right::before {
